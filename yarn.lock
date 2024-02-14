@@ -2010,7 +2010,7 @@
     hermes-parser "0.15.0"
     nullthrows "^1.1.1"
 
-"@react-native/normalize-color@^2.0.0":
+"@react-native/normalize-color@^2.0.0", "@react-native/normalize-color@^2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@react-native/normalize-color/-/normalize-color-2.1.0.tgz#939b87a9849e81687d3640c5efa2a486ac266f91"
   integrity sha512-Z1jQI2NpdFJCVgpY+8Dq/Bt3d+YUi1928Q+/CZm/oh66fzM0RUl54vvuXlPJKybH4pdCZey1eDTPaLHkMPNgWA==
@@ -2071,6 +2071,125 @@
   integrity sha512-V4BG07kuYSUkTCSBHG8G8TNhM+F19jXFWnQtzj+we8DrkpSBCee9Z3Ms8yiGer/dlmhe35/Xdgyo3/0rQKg7YA==
   dependencies:
     "@sinonjs/commons" "^3.0.0"
+
+"@tamagui/animations-css@^1.89.20":
+  version "1.89.20"
+  resolved "https://registry.yarnpkg.com/@tamagui/animations-css/-/animations-css-1.89.20.tgz#b1ee30ad002f9a10d03dfddc7c0f322486f5d34d"
+  integrity sha512-gLPzOJ+sHoGRLwBQuT0MOyOuC6ZlAyFNUkJ0Z74mxdoR31evj2wqdyXKA2bfB4y3t5sWsyK1hKyUbgeVNVXHxQ==
+  dependencies:
+    "@tamagui/constants" "1.89.20"
+    "@tamagui/cubic-bezier-animator" "1.89.20"
+    "@tamagui/use-presence" "1.89.20"
+    "@tamagui/web" "1.89.20"
+    react "^18.2.0"
+
+"@tamagui/compose-refs@1.89.20":
+  version "1.89.20"
+  resolved "https://registry.yarnpkg.com/@tamagui/compose-refs/-/compose-refs-1.89.20.tgz#723a571314d6beb11b2abaea0dc6c84b2589484f"
+  integrity sha512-tn+vMLAaNo14yQ+Kfi2F266XAS4ex9sZP1ojo3JgvAAJRSQgXnutTgJvxosPwKNm8McVNegopscgF5ft3JGdiw==
+
+"@tamagui/constants@1.89.20":
+  version "1.89.20"
+  resolved "https://registry.yarnpkg.com/@tamagui/constants/-/constants-1.89.20.tgz#ae5b533df841429773f195de9dad52acab58ff56"
+  integrity sha512-SUqwJLiFPfD83Lm7ptnU+SMa5lMcbvq41QzVz2LweI53OcWotek+xbq/3PjKrHzLIMen5iUI2ZVJdDHvOfw85Q==
+
+"@tamagui/core@^1.89.20":
+  version "1.89.20"
+  resolved "https://registry.yarnpkg.com/@tamagui/core/-/core-1.89.20.tgz#bfc699788a11c33238eb4b5f45bb7cb906ede4ec"
+  integrity sha512-oEA7zIYRwcSATiseM8d6LBaI64yGxHEZkxO/c9kLDJQxhBO1bfTBwCFsBzqxbOzqIsjcEqmd4cxSIQhZtGBzxg==
+  dependencies:
+    "@tamagui/react-native-use-pressable" "1.89.20"
+    "@tamagui/react-native-use-responder-events" "1.89.20"
+    "@tamagui/use-event" "1.89.20"
+    "@tamagui/web" "1.89.20"
+
+"@tamagui/cubic-bezier-animator@1.89.20":
+  version "1.89.20"
+  resolved "https://registry.yarnpkg.com/@tamagui/cubic-bezier-animator/-/cubic-bezier-animator-1.89.20.tgz#18b1495ad141cd5aba0a9e374b0666b718311bff"
+  integrity sha512-etZXyB5LR2HKXJA9zs7uPMe24EXfKvgwqadJ0lxmypKlepXtAO66GxZKv6HfQdhMIvNRK5ozLMXjby3LNvrmQw==
+
+"@tamagui/helpers@1.89.20":
+  version "1.89.20"
+  resolved "https://registry.yarnpkg.com/@tamagui/helpers/-/helpers-1.89.20.tgz#eb2738b42b28c7aa51605b5b27c350e968a145f8"
+  integrity sha512-olOT1Xy44GA+5XBg7FAWpImImbw+htkJBBKXlsYOG3+TUrBk1wU+kv2LNV3JwJ0Pkry5N6qRDz8NzQktvZK7ag==
+  dependencies:
+    "@tamagui/constants" "1.89.20"
+    "@tamagui/simple-hash" "1.89.20"
+
+"@tamagui/normalize-css-color@1.89.20":
+  version "1.89.20"
+  resolved "https://registry.yarnpkg.com/@tamagui/normalize-css-color/-/normalize-css-color-1.89.20.tgz#fe605449b7dacf06fb638f9feaf2e89dd0074e99"
+  integrity sha512-6Gpv/IP/XeXeZiVGcIvXd4VL8b7yPR2G6nRHbCQI4kQfMNe0cKAjC636xdEFZAqHbRL3Uizcf/XyI7rY8PeL6Q==
+  dependencies:
+    "@react-native/normalize-color" "^2.1.0"
+
+"@tamagui/react-native-use-pressable@1.89.20":
+  version "1.89.20"
+  resolved "https://registry.yarnpkg.com/@tamagui/react-native-use-pressable/-/react-native-use-pressable-1.89.20.tgz#9f886168fb4fed0d45d79205b9d47bd20e4e7415"
+  integrity sha512-db+K9VyTWfiixr8nS/SIkZdwcyd0WLXmDjbymPyG2XbPCHN8VNtLL+yukHE/JU4+g1AmsqO7oj+fzth2p1zN2A==
+
+"@tamagui/react-native-use-responder-events@1.89.20":
+  version "1.89.20"
+  resolved "https://registry.yarnpkg.com/@tamagui/react-native-use-responder-events/-/react-native-use-responder-events-1.89.20.tgz#7c94f4181f01c6f62c4ea5619803de99332f45d7"
+  integrity sha512-sYDeY5VHR0Zh3/iw1zpjdiKyghQV9xIrhjM0dXPHg6aM6pQRjoWiHgNoy/FUfCcd3OKxlsFPLBol3tAgBsYnHQ==
+
+"@tamagui/simple-hash@1.89.20":
+  version "1.89.20"
+  resolved "https://registry.yarnpkg.com/@tamagui/simple-hash/-/simple-hash-1.89.20.tgz#8781314c27520724cfb21bcfc1b70ce42f8c8605"
+  integrity sha512-X0wdqShe1EadyvE8JpuZTLF5mSvekFeaqLoZd7SvY565zvX/8i4XwYqr22MPbqfofeb7rXQ1f13XGX2/TXY47Q==
+
+"@tamagui/timer@1.89.20":
+  version "1.89.20"
+  resolved "https://registry.yarnpkg.com/@tamagui/timer/-/timer-1.89.20.tgz#c0f919891abefba6470a41d1c7dda1eacb9f099c"
+  integrity sha512-JGykonrLgTRalkn1BuWUkI8BUVKFCUgcaNgSxtqxLAIEboD05iduGkCKhGNMBBknznQcIWcu3VEKU1WANSY53w==
+
+"@tamagui/types@1.89.20":
+  version "1.89.20"
+  resolved "https://registry.yarnpkg.com/@tamagui/types/-/types-1.89.20.tgz#ed47b45410ecd35ae6113d101746580856eeeb99"
+  integrity sha512-uSz+zwcUmqtzRaNoH5YdrxF6zZi0s45rUGjCOZgN5es3sN05iOA2+oCIAEw7VXJdUI83OuEJzSZVKjoT1NXR+w==
+
+"@tamagui/use-did-finish-ssr@1.89.20":
+  version "1.89.20"
+  resolved "https://registry.yarnpkg.com/@tamagui/use-did-finish-ssr/-/use-did-finish-ssr-1.89.20.tgz#9ae10b096ab8a24b2c2ee90007b4220a0b289296"
+  integrity sha512-VFKtBn8OrqZX6J3ftRoNWyF+fm+P2RIJxWr8CaZUUcr7DFmDMRlR6OkVQ1K4e7q2W+u3C5qqOyjUYM0wc5O8AA==
+  dependencies:
+    "@tamagui/constants" "1.89.20"
+
+"@tamagui/use-event@1.89.20":
+  version "1.89.20"
+  resolved "https://registry.yarnpkg.com/@tamagui/use-event/-/use-event-1.89.20.tgz#6a16ef3dcfae2871070ce48a21dffa456af0acfe"
+  integrity sha512-+X7boQ5+msFnHWsWffuIa1UjbCv0uK9/aKxIiehM6ten4qSTQ6+0JDmylYDONVq+Dfc1XfRKDcGhM9QdjhHARw==
+  dependencies:
+    "@tamagui/constants" "1.89.20"
+
+"@tamagui/use-force-update@1.89.20":
+  version "1.89.20"
+  resolved "https://registry.yarnpkg.com/@tamagui/use-force-update/-/use-force-update-1.89.20.tgz#862a9ac2b169b860431d010fa7aac86051c390c6"
+  integrity sha512-8z0co6XPiU02dee+M+GH7SoeAcV1nnpXqpF1mBlh978oO2newYpgxbnDJKOYJ0WuXL2Z81T2s2fZYvDp5iNBMQ==
+
+"@tamagui/use-presence@1.89.20":
+  version "1.89.20"
+  resolved "https://registry.yarnpkg.com/@tamagui/use-presence/-/use-presence-1.89.20.tgz#c19423a9281ed42bb1d64999347b68cec4169f4d"
+  integrity sha512-rAYYpFm12PPLeyDLZ7fOg4HN9akVgmw6A9QTe6Cmg4vloAyF7W2Tn1n+gk7vvFo2NxeuLIbTJL9Z37L+QZGpXA==
+  dependencies:
+    "@tamagui/web" "1.89.20"
+
+"@tamagui/web@1.89.20":
+  version "1.89.20"
+  resolved "https://registry.yarnpkg.com/@tamagui/web/-/web-1.89.20.tgz#fc991770dcb2cdd04bc09f469f342084fc7742f3"
+  integrity sha512-E49lcTbK2h0CEvHJH32GmWDGfR62Z6EmDhuhRJ9t6z0g2SQ7iqMlJrAq2DkpoGbEqtWWvVDfflZcplD4JU2Npw==
+  dependencies:
+    "@tamagui/compose-refs" "1.89.20"
+    "@tamagui/constants" "1.89.20"
+    "@tamagui/helpers" "1.89.20"
+    "@tamagui/normalize-css-color" "1.89.20"
+    "@tamagui/timer" "1.89.20"
+    "@tamagui/types" "1.89.20"
+    "@tamagui/use-did-finish-ssr" "1.89.20"
+    "@tamagui/use-event" "1.89.20"
+    "@tamagui/use-force-update" "1.89.20"
+    react "^18.2.0"
+    react-dom "^18.2.0"
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.6"
@@ -5440,6 +5559,14 @@ react-devtools-core@^4.27.7:
     shell-quote "^1.6.1"
     ws "^7"
 
+react-dom@^18.2.0:
+  version "18.2.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.2.0.tgz#22aaf38708db2674ed9ada224ca4aa708d821e3d"
+  integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
+  dependencies:
+    loose-envify "^1.1.0"
+    scheduler "^0.23.0"
+
 "react-is@^16.12.0 || ^17.0.0 || ^18.0.0", react-is@^18.0.0, react-is@^18.1.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
@@ -5512,7 +5639,7 @@ react-shallow-renderer@^16.15.0:
     object-assign "^4.1.1"
     react-is "^16.12.0 || ^17.0.0 || ^18.0.0"
 
-react@18.2.0:
+react@18.2.0, react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
@@ -5758,6 +5885,13 @@ scheduler@0.24.0-canary-efb381bbf-20230505:
   version "0.24.0-canary-efb381bbf-20230505"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.24.0-canary-efb381bbf-20230505.tgz#5dddc60e29f91cd7f8b983d7ce4a99c2202d178f"
   integrity sha512-ABvovCDe/k9IluqSh4/ISoq8tIJnW8euVAWYt5j/bg6dRnqwQwiGO1F/V4AyK96NGF/FB04FhOUDuWj8IKfABA==
+  dependencies:
+    loose-envify "^1.1.0"
+
+scheduler@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.23.0.tgz#ba8041afc3d30eb206a487b6b384002e4e61fdfe"
+  integrity sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==
   dependencies:
     loose-envify "^1.1.0"
 

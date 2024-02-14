@@ -9,6 +9,8 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@tamagui/animations-css": "^1.89.20",
+    "@tamagui/core": "^1.89.20",
     "expo": "~50.0.6",
     "expo-status-bar": "~1.11.1",
     "nativewind": "^2.0.11",
