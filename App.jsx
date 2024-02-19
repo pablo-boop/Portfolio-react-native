@@ -8,7 +8,7 @@ export default function App() {
       <User img={require('./assets/profile.jpg')} name={'Pablo Daniel Couto'} desc={'Aluno 3TDS2'}/>
       <Card 
       title={'Resumo da atuação'} 
-      desc={'Há um ano, iniciei meus estudos em programação no SENAI Valinhos. Tenho dedicado tempo e esforço, desenvolvendo sólidos conhecimentos em HTML5, CSS3, JavaScript, React, Git, Expo e Next. Destaco-me pelo comprometimento e participação ativa nas atividades do curso.'} 
+      desc={'Há um ano, iniciei meus estudos em programação no SENAI Valinhos. Tenho dedicado tempo e esforço, desenvolvendo sólidos conhecimentos em HTML5, CSS3, JavaScript, React, NodeJs e Git, utilizando frameworks React como Expo e Next. Destaco-me pelo comprometimento e participação ativa nas atividades do curso.'} 
       projetos={'Projetos'}
       card1Img={require('./assets/jujutsu.jpg')}
       card1Title={'Jujutsu Kaisen - Front End'}
